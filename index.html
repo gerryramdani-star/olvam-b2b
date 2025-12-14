@@ -413,6 +413,97 @@
         </div>
     </section>
 
+    <!-- Section Comparison: Retail vs Partnership (New Section) -->
+    <section class="py-24 bg-white relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 left-0 w-full h-1/2 bg-slate-50 skew-y-3 transform -translate-y-20 -z-10"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-600 font-bold uppercase tracking-wider text-sm">Hitungan Bisnis</span>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-slate-900 mt-2">
+                    Kenapa Margin Kemitraan <br class="hidden md:block"> Jauh Lebih Menguntungkan?
+                </h2>
+                <p class="mt-4 text-slate-600 text-lg">Jangan biarkan margin Anda terlalu tipis. Lihat perbedaannya.</p>
+            </div>
+
+            <div class="grid md:grid-cols-11 gap-8 items-center">
+                
+                <!-- Card 1: Retail / E-commerce (FIXED: Badge Visibility) -->
+                <div class="md:col-span-5 relative group">
+                    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm transition">
+                        <!-- PERBAIKAN DI SINI: Ditambahkan class 'z-10' -->
+                        <div class="absolute top-4 right-4 bg-slate-100 text-slate-500 text-xs font-bold px-3 py-1 rounded-full uppercase z-10">Pasaran / Satuan</div>
+                        
+                        <div class="aspect-[4/3] bg-slate-100 rounded-xl mb-6 relative overflow-hidden flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=600" alt="Produk Satuan" class="w-full h-full object-cover transition duration-500">
+                        </div>
+
+                        <h3 class="text-xl font-bold text-slate-700 mb-1">Harga Jual E-commerce</h3>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-3xl font-bold text-slate-800">Rp 85.000</span>
+                            <span class="text-sm text-slate-500">/ pcs</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-500">
+                            <li class="flex items-center gap-3"><i data-lucide="x-circle" class="w-5 h-5 text-red-400"></i> Margin tipis (saingan ketat)</li>
+                            <li class="flex items-center gap-3"><i data-lucide="x-circle" class="w-5 h-5 text-red-400"></i> Tidak ada proteksi harga</li>
+                            <li class="flex items-center gap-3"><i data-lucide="x-circle" class="w-5 h-5 text-red-400"></i> Stok tidak terjamin</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- VS Badge (Center) -->
+                <div class="md:col-span-1 flex justify-center py-4 md:py-0 relative z-20">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-white rounded-full shadow-xl border-4 border-slate-50 flex items-center justify-center font-black text-slate-300 text-xl md:text-2xl">
+                        VS
+                    </div>
+                </div>
+
+                <!-- Card 2: Partnership (Positive/Highlighted) -->
+                <div class="md:col-span-5 relative transform md:-translate-y-4">
+                    <!-- Highlight Glow -->
+                    <div class="absolute -inset-1 bg-gradient-to-r from-brand-400 to-green-300 rounded-2xl blur opacity-30 animate-pulse"></div>
+                    
+                    <div class="bg-white rounded-2xl p-8 border-2 border-brand-500 shadow-2xl relative">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase shadow-lg tracking-wide whitespace-nowrap">
+                            Rekomendasi Mitra
+                        </div>
+
+                        <!-- Dummy Image: Bulk/Professional Look -->
+                        <div class="aspect-[4/3] bg-brand-50 rounded-xl mb-6 relative overflow-hidden flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=600" alt="Stok Mitra" class="w-full h-full object-cover">
+                            <!-- Overlay Badge -->
+                            <div class="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-3 py-1.5 rounded-lg shadow-sm border border-brand-100">
+                                <span class="text-brand-700 font-bold text-xs flex items-center gap-1">
+                                    <i data-lucide="trending-up" class="w-3 h-3"></i> Profit Maksimal
+                                </span>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-bold text-slate-800 mb-1">Harga Modal Mitra</h3>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-4xl font-extrabold text-brand-600">Rp 55.000</span>
+                            <span class="text-sm text-slate-500">/ pcs</span>
+                        </div>
+                        
+                        <div class="bg-brand-50 rounded-lg p-4 border border-brand-100 mb-4">
+                            <p class="text-brand-800 font-semibold text-sm mb-1">Potensi Keuntungan:</p>
+                            <p class="text-2xl font-bold text-slate-900">Rp 30.000 <span class="text-sm font-normal text-slate-500">per produk</span></p>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-600 font-medium">
+                            <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-5 h-5 text-brand-500"></i> <strong>Margin jauh lebih besar</strong></li>
+                            <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-5 h-5 text-brand-500"></i> Harga jual stabil & terjaga</li>
+                            <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-5 h-5 text-brand-500"></i> Prioritas stok utama</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Section 7: Packages -->
     <section id="paket" class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -568,6 +659,7 @@
 </body>
 
 </html>
+
 
 
 
