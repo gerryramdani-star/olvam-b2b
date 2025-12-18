@@ -625,30 +625,11 @@
             <p>&copy; 2026 OLVAM Indonesia. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- Sticky WhatsApp Button (Visible on Scroll) -->
-    <a href="https://wa.me/6282121011940" id="sticky-wa" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition transform translate-y-20 opacity-0 duration-300 flex items-center justify-center group">
-        <img src="https://raw.githubusercontent.com/gerryramdani-star/olvam-b2b/refs/heads/main/asset/whatsapp%20icon%20resize.png" class="w-5 h-5 object-contain" alt="Icon WA">
-        <span class="absolute right-full mr-3 bg-white text-slate-800 px-3 py-1 rounded-lg text-sm font-bold shadow-md opacity-0 group-hover:opacity-100 transition whitespace-nowrap hidden md:block">
-            Chat Admin
-        </span>
-    </a>
-
+    
     <!-- Scripts -->
     <script>
         // Initialize Icons
         lucide.createIcons();
-
-        // Sticky Button Logic
-        const stickyBtn = document.getElementById('sticky-wa');
-        
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 500) {
-                stickyBtn.classList.remove('translate-y-20', 'opacity-0');
-            } else {
-                stickyBtn.classList.add('translate-y-20', 'opacity-0');
-            }
-        });
 
         // Navbar Blur Effect on Scroll
         const nav = document.querySelector('nav');
@@ -663,6 +644,7 @@
 </body>
 
 </html>
+
 
 
 
